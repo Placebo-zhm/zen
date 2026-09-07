@@ -1,0 +1,7 @@
+﻿@import 'tailwindcss';
+:root { color-scheme: light; --background: #e8e4da; --foreground: #37443b; }
+* { box-sizing: border-box; }
+html, body { width: 100%; height: 100%; margin: 0; overflow: hidden; background: var(--background); }
+.courtyard { position: fixed; inset: 0; overflow: hidden; }
+.courtyard canvas { display: block; width: 100%; height: 100%; outline: none; touch-action: none; cursor: grab; }
+.courtyard canvas:active { cursor: grabbing; }
